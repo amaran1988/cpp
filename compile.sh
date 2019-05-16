@@ -36,9 +36,9 @@ echo "======================================"
 echo "     Compiling the $1 file            " 
 echo "======================================"
 echo "" 
-g++ -o final.exe $1
+g++ -std=c++11 -o final.exe $1
 
-echo "g++ -o final.exe $1"
+echo "g++ -std=c++11 -o final.exe $1"
 
 echo ""
 echo "======================================"
